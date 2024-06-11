@@ -5,7 +5,7 @@ let player = { speed: 5, score: 0 };
 let highest = 0;
 startscreen.addEventListener('click', start);
 
-let keys = { ArrowUp: false, ArrowDown: false, ArrowRight: false, ArrowLeft: false };
+let keys = { ArrowUp: true, ArrowDown: true, ArrowRight: true, ArrowLeft: true };
 
 document.addEventListener('keydown', keyDown);
 document.addEventListener('keyup', keyUp);
